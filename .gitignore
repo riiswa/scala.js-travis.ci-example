@@ -1,0 +1,5 @@
+bin/
+project/
+target/
+build/
+*.class
