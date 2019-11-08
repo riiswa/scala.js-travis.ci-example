@@ -15,4 +15,4 @@ fi
 sbt fastOptJS
 
 # Move generates . js files to public/js 
-cp target/scala-*/*.js /public/js/
+cp target/scala-*/*.js public/js/
