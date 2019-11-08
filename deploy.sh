@@ -12,7 +12,7 @@ if [ ! -d "public/js" ]; then
 fi
 
 # Generate .js files from Scala
-sbt fullOptJS
+sbt fastOptJS
 
 # Move generates . js files to public/js 
-cp /target/scala-*/*.js /public/js/
+cp target/scala-*/*.js /public/js/
